@@ -303,23 +303,22 @@ margin: 0;
     
   }
   .card-principal-imagem{
-    max-width: 900px;
   }
   .card-principal {
-    left: -1px;
+    left: -0;
     right: 5px;
     top: -250px;
-    max-width: auto;
+    width: 100%;
     height: auto;
     grid-template-columns: 1fr;
     min-height: auto;
     border-radius: 0;
     overflow: hidden;
-
+    border: 0;
   }
 
   .banner-container{
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     position: relative;
     display: flex;
@@ -333,11 +332,20 @@ margin: 0;
   .card-perfil {
     position: relative;
     display: flex;
-    width: 900px;
+    width: 96%;
     height: auto;
     top: 0;
     left: 0;
     overflow: hidden;
+    left: 18px;
+  }
+  .container-card{
+    width: 100%;
+    align-items: center;
+  }
+  .btn-postagem{
+    width: 100%;
+    padding: 1rem;
   }
   
 }
