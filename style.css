@@ -332,11 +332,20 @@ margin: 0;
   .card-perfil {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 96%;
     height: auto;
     top: 0;
     left: 0;
     overflow: hidden;
+    left: 18px;
+  }
+  .container-card{
+    width: 100%;
+    align-items: center;
+  }
+  .btn-postagem{
+    width: 100%;
+    padding: 1rem;
   }
   
 }
