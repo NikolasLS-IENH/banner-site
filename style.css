@@ -340,6 +340,7 @@ margin: 0;
   .container-card{
     width: 100%;
     align-items: center;
+    text-align: center;
   }
   .btn-postagem{
     width: 100%;
