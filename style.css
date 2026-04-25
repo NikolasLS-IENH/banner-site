@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --bg-dark: #090a15;
@@ -7,18 +7,19 @@
   --accent-strong: #5c42d6;
   --text-main: #eef0ff;
   --text-muted: #b9bdd5;
-  --border: rgba(255,255,255,0.08);
-  --shadow: 0 26px 60px rgba(3,8,38,0.28);
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 26px 60px rgba(3, 8, 38, 0.28);
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto'
+  font-family: "Roboto";
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -38,55 +39,57 @@ a {
 }
 
 body > * {
-    padding: 0;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 main {
   padding: 0;
-    margin: 0;
-    display: flex;
+  margin: 0;
+  display: flex;
   justify-content: center;
 }
 
 #banner {
- left: 0;
+  left: 0;
   width: 10000000px;
   height: 560px;
   display: fit-content;
   position: relative;
   padding: 3.5rem 0 4.5rem;
-background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%); 
-padding-bottom: 128px;
-right: 0;
-margin: 0;
+  background: linear-gradient(
+    to right,
+    rgb(250, 112, 154) 0%,
+    rgb(254, 225, 64) 100%
+  );
+  padding-bottom: 128px;
+  right: 0;
+  margin: 0;
 }
 
-
 .banner-container {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 0px;
-    left: 0px;
-    height: calc(100% + 64px);
-    position: absolute;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  height: calc(100% + 64px);
+  position: absolute;
 }
 
 .card-principal,
 .card-perfil {
-    border-radius: 26px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    position: absolute;
-    width: 600px;
-    height: 560px;
-    align-content: center;
-    left: 48%;
-    
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  position: absolute;
+  width: 600px;
+  height: 560px;
+  align-content: center;
+  left: 48%;
 }
 
 .card-principal {
@@ -97,20 +100,20 @@ margin: 0;
   min-height: 420px;
   color: #fff;
 }
+
 .container-card {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    bottom: 100px;
-    left: 0px;
-    right: 0px;
-    position: absolute;
-    justify-items: left;
-    align-items: left;
-    width: 80%;
-    padding-left: 16px;
-    
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  justify-items: left;
+  align-items: left;
+  width: 80%;
+  padding-left: 16px;
 }
 
 .card-principal-imagem {
@@ -119,7 +122,6 @@ margin: 0;
   background-size: cover;
   background-position: center;
   position: relative;
-
 }
 
 .card-principal-conteudo {
@@ -135,38 +137,36 @@ margin: 0;
 }
 
 .card-titulo {
-     margin: 0;
-    font-size: clamp(1.4rem, 2.1vw, 2rem);
-    letter-spacing: 0.08em;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.167;
-    letter-spacing: 0em;
+  margin: 0;
+  font-size: clamp(1.4rem, 2.1vw, 2rem);
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.167;
+  letter-spacing: 0em;
 }
 
 .card-texto {
   margin: 0;
   line-height: 1.4rem;
-  color:#fff;
+  color: #fff;
   font-size: 1rem;
   font-weight: 500;
-
-  
 }
 
 .btn-postagem {
-    align-self: start;
-    border: none;
-    padding: 1.5%;
-    border-radius: 5px;
-    background: rgb(3 3 3 / 0%);
-    border: solid, 1px;
-    color: #fff;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 2.8%;
+  align-self: start;
+  border: none;
+  padding: 1.5%;
+  border-radius: 5px;
+  background: rgb(3 3 3 / 0%);
+  border: solid, 1px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 2.8%;
 }
 
 .btn-postagem:hover {
@@ -176,7 +176,7 @@ margin: 0;
 
 .card-perfil {
   padding: 1rem;
-  background:#fff;
+  background: #fff;
   box-shadow: var(--shadow);
   border-radius: 5px;
   display: flex;
@@ -184,25 +184,22 @@ margin: 0;
   gap: 1.8rem;
   width: 440px;
   height: 350px;
-
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.2rem;
-  
 }
 
 .tag {
   display: inline-flex;
   align-items: center;
-  padding: 0.20rem 0.70rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.098);
   color: #000000;
   font-size: 0.88rem;
-
 }
 
 .perfil-header {
@@ -225,8 +222,6 @@ margin: 0;
   display: grid;
   gap: 0.25rem;
   color: #cd2358;
-  
-  
 }
 
 .perfil-nome {
@@ -245,7 +240,7 @@ margin: 0;
   margin: 0;
   line-height: 1.8;
   color: black;
-  margin-top:-20px;
+  margin-top: -20px;
 }
 
 .redes-sociais {
@@ -265,8 +260,10 @@ margin: 0;
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  background: rgba(255,255,255,0.05);
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  background: rgba(255, 255, 255, 0.05);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
 }
 
 .redes-sociais a:hover {
@@ -279,27 +276,33 @@ margin: 0;
   height: 20px;
   object-fit: contain;
 }
+
 @media (max-width: 960px) {
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body{
+
+  body {
     padding: 0;
     margin: 0;
     display: inline-block;
     overflow-y: scroll;
   }
+
   #banner {
     width: 100%;
     height: auto;
     padding: 3.5rem 0 4.5rem;
-    background: linear-gradient(to right, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);
+    background: linear-gradient(
+      to right,
+      rgb(250, 112, 154) 0%,
+      rgb(254, 225, 64) 100%
+    );
     padding-bottom: 128px;
     right: 0;
     margin: 0;
-    
   }
 
   .card-principal {
@@ -315,7 +318,7 @@ margin: 0;
     border: 0;
   }
 
-  .banner-container{
+  .banner-container {
     width: 100%;
     height: 300px;
     position: relative;
@@ -324,7 +327,6 @@ margin: 0;
     left: 0;
     right: 0;
     gap: 1em;
-    
   }
 
   .card-perfil {
@@ -337,17 +339,19 @@ margin: 0;
     overflow: hidden;
     left: 18px;
   }
-  .container-card{
+
+  .container-card {
     width: 100%;
     align-items: center;
     text-align: center;
   }
-  .btn-postagem{
+
+  .btn-postagem {
     width: 100%;
     padding: 1rem;
   }
-  
 }
+
 @media (max-width: 860px) {
   .banner-container {
     grid-template-columns: 1fr;
@@ -356,14 +360,15 @@ margin: 0;
   .card-principal,
   .card-perfil {
     min-height: auto;
-  
   }
-   .container-card {
-      width: 100%;
-      align-items: center;
-      text-align: center;
-    }
-  body > *{
+
+  .container-card {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  body > * {
     overflow: scroll;
   }
 }
