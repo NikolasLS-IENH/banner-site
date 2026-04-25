@@ -362,12 +362,16 @@ margin: 0;
       align-items: center;
       text-align: center;
     }
+  body > *{
+    overflow: scroll;
+  }
 }
 
 @media (max-width: 520px) {
   body > * {
     padding-left: 0.95rem;
     padding-right: 0.95rem;
+    overflow: scroll;
   }
 
   .card-principal-conteudo {
